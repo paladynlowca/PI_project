@@ -1,0 +1,38 @@
+<div class="popup_form" id="popup_login" onclick="login_hide()">
+    <div class="popup_center_box" onclick="event.stopPropagation()">
+        <form id="login_form" method="post" action="confirm_login.php">
+            <label for="login_form_login">Login:</label>
+            <input type="text" id="login_form_login" name="login"><br><br>
+            <label for="login_form_password">Hasło:</label>
+            <input type="password" id="login_form_password" name="password"><br><br>
+            <button id="login_form_submit" form="login_form">Logowanie</button>
+        </form>
+    </div>
+</div>
+
+<div class="popup_form" id="popup_register" onclick="login_hide()">
+    <div class="popup_center_box" onclick="event.stopPropagation()">
+        <form id="register_form" method="post" action="confirm_register.php">
+            <div class="Login_form_element">
+                <label for="register_form_login">Login: </label>
+                <input id="register_form_login" type="text" name="login">
+            </div>
+            <div class="Login_form_element">
+                <label for="register_form_password">Hasło: </label>
+                <input id="register_form_password" type="password" id="password" name="password">
+            </div>
+            <div class="Login_form_element">
+                <label for="register_form_password2">Powtórz hasło: </label>
+                <input id="register_form_password2" type="password" name="repeat_password">
+            </div>
+            <div class="Login_form_element">
+                <label for="register_form_email">E-mail: </label>
+                <input id="register_form_email" type="text" name="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
+            </div>
+            <div class="Login_form_element">
+                <button form="register_form">Rejestracja</button>
+            </div>
+        </form>
+    </div>
+</div>
+

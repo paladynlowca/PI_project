@@ -1,0 +1,99 @@
+.TH "SingleQH" 3 "Tue Jun 2 2020" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SingleQH
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBQuestionHandler\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBbuilt_question\fP ($answer_raw, $id, $settings)"
+.br
+.ti -1c
+.RI "\fBvalid_answer\fP ($answer, $answers_raw, $settings)"
+.br
+.ti -1c
+.RI "\fBbuilt_result\fP ($results, $results_total, $answers)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Strategy for single choice questions\&.
+.PP
+\fBSee also\fP
+.RS 4
+\fBQuestionHandler\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "SingleQH::built_question ( $answer_raw,  $id,  $settings)"
+Creating question HTML code for specific type of them\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$answer_raw\fP Raw answers data\&. 
+.br
+\fI$id\fP \fBQuestion\fP id\&. 
+.br
+\fI$settings\fP Array of question settings\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+string \fBQuestion\fP HTML code\&. 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBQuestionHandler\fP\&.
+.SS "SingleQH::built_result ( $results,  $results_total,  $answers)"
+Creating result HTML code for specific type of question\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$results\fP Array of all users answers (only \fBSingleQH\fP and \fBMultiQH\fP)\&. 
+.br
+\fI$results_total\fP Number of all answers\&. 
+.br
+\fI$answers\fP Array of all possible answers (only \fBSingleQH\fP and \fBMultiQH\fP)\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+string Result HTML code\&. 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBQuestionHandler\fP\&.
+.SS "SingleQH::valid_answer ( $answer,  $answers_raw,  $settings)"
+Checking correct of answer\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$answer\fP User answer for question\&. 
+.br
+\fI$answers_raw\fP Raw answers data\&. 
+.br
+\fI$settings\fP Array of question settings\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBQuestionHandler\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,136 @@
+.TH "SqlCall" 3 "Tue Jun 2 2020" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SqlCall
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($procedure,\&.\&.\&. $arguments)"
+.br
+.ti -1c
+.RI "\fBbuild\fP ()"
+.br
+.ti -1c
+.RI "\fBconnect\fP ()"
+.br
+.ti -1c
+.RI "\fBview_quarry\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_answer\fP ()"
+.br
+.ti -1c
+.RI "\fBdo_quarry\fP ()"
+.br
+.ti -1c
+.RI "\fBget_length\fP ()"
+.br
+.ti -1c
+.RI "\fBget_row\fP ($number)"
+.br
+.ti -1c
+.RI "\fBnext_row\fP ()"
+.br
+.ti -1c
+.RI "\fBprevious_row\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Calling SQL stored procedure and parsing their results\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SqlCall::__construct ( $procedure,  $arguments)"
+\fBSqlCall\fP constructor\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$procedure\fP Procedure name\&. 
+.br
+\fImixed\fP \&.\&.\&.$arguments Arguments for procedure\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "SqlCall::build ()"
+Building an SQL quarry\&. 
+.SS "SqlCall::connect ()"
+Connecting to database and make quarry\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool Result of connection\&. 
+.RE
+.PP
+
+.SS "SqlCall::do_quarry ()"
+Method aggregate built(), \fBconnect()\fP and \fBparse_answer()\fP methods for simplified code\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool result of \fBconnect()\fP method\&. 
+.RE
+.PP
+
+.SS "SqlCall::get_length ()"
+Returning number of rows\&.
+.PP
+\fBReturns\fP
+.RS 4
+int Number of rows\&. 
+.RE
+.PP
+
+.SS "SqlCall::get_row ( $number)"
+Return row by number\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$number\fP Row number\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+bool|mixed[] Row array if exist, else false\&. 
+.RE
+.PP
+
+.SS "SqlCall::next_row ()"
+Return next row\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool|mixed[] Row array if exist, else false\&. 
+.RE
+.PP
+
+.SS "SqlCall::parse_answer ()"
+Converting mysqli result into class data structure\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool Result of conversion\&. 
+.RE
+.PP
+
+.SS "SqlCall::previous_row ()"
+Return previous row\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool|mixed[] Row array if exist, else false\&. 
+.RE
+.PP
+
+.SS "SqlCall::view_quarry ()"
+Displaying sql quarry (debug only)\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

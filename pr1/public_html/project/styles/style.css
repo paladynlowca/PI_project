@@ -1,0 +1,146 @@
+*
+{
+    font-family:            inherit;
+}
+
+body
+{
+    margin:                 20px;
+    color:                  #c2c2c2;
+    background-color:       #343434;
+    font-family:            "Arial Black", sans-serif;
+}
+
+#main_menu
+{
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+    flex-wrap:              nowrap;
+}
+
+.main_menu_left
+{
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        left;
+    flex-wrap:              nowrap;
+}
+
+.main_menu_right
+{
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        left;
+    flex-wrap:              nowrap;
+}
+
+.main_menu_element
+{
+    cursor:                 pointer;
+    padding:                0   25pt;
+}
+
+.popup_form
+{
+    position:               fixed;
+    bottom:                 0;
+    right:                  0;
+
+    width:                  100%;
+    height:                 100%;
+
+    background-color:       #00000055;
+
+    align-items:            center;
+    justify-content:        center;
+}
+
+#popup_login
+{
+    display:                none;
+}
+#popup_register
+{
+    display:                none;
+}
+#popup_check_solutions
+{
+    display:                none;
+}
+
+.popup_center_box
+{
+    border-style:           solid;
+    border-color:           black;
+    border-width:           2px;
+
+    background-color:       #555555;
+    padding:                2em;
+}
+
+.login_form_element
+{
+    width:                  100%;
+    padding:                0.5em;
+    display:                flex;
+    justify-content:        flex-end;
+}
+
+.login_form_element > *
+{
+    padding:                0   1em;
+}
+
+.create_form_question_element
+{
+    padding:                0.5em;
+}
+
+.create_form_question_element > div
+{
+    padding:                0   0.5em;
+    margin:                 0.5em;
+}
+
+button
+{
+    color:                  #3f3d57;
+    background-color:       #cacaca;
+    padding:                0.125em 0.5em;
+    transition:             color, background-color;
+    transition-duration:    0.5s;
+    font-size:              1em;
+    border-style:           solid;
+    border-width:           0.01em;
+    border-color:           #999999;
+}
+
+button:hover
+{
+    color:                  black;
+    background-color:       #999999;
+}
+
+.main_menu_element
+{
+    font-weight:            bold;
+    background:             #4f4f4f;
+    border-color:           #8c8c8c;
+    border-style:           ridge;
+    border-width:           1px;
+    padding:                0.25em;
+    margin:                 0   0.5em;
+    transition-property:    color;
+    transition-duration:    0.5s;
+}
+
+.main_menu_element:hover
+{
+    color:                  white;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color:                  inherit;
+    text-decoration:        none;
+}

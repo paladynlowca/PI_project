@@ -1,0 +1,150 @@
+.TH "Form" 3 "Tue Jun 2 2020" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Form
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBload\fP ($form_id)"
+.br
+.ti -1c
+.RI "\fBbuild_form\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_create\fP ()"
+.br
+.ti -1c
+.RI "\fBsend_create\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_answers\fP ()"
+.br
+.ti -1c
+.RI "\fBsend_answers\fP ($password)"
+.br
+.ti -1c
+.RI "\fBload_results\fP ()"
+.br
+.ti -1c
+.RI "\fBbuild_results\fP ()"
+.br
+.ti -1c
+.RI "\fBget_creator\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class handling with forms and solutions for them\&.
+.PP
+There is four mode of use:
+.IP "1." 4
+Prepare form HTML code, use: \fBload()\fP, \fBbuild_form()\fP\&.
+.IP "2." 4
+Add answers into database, use: \fBload()\fP, \fBparse_answers()\fP, \fBsend_answers()\fP\&.
+.IP "3." 4
+Display all form answers, use: \fBload()\fP, \fBload_results()\fP, \fBbuild_results()\fP\&.
+.IP "4." 4
+Create new form into database, use: \fBparse_create()\fP, \fBsend_create()\fP\&.
+.PP
+.PP
+\fBSee also\fP
+.RS 4
+\fBQuestion\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Form::build_form ()"
+Creating form HTML code\&.
+.PP
+Use after \fBload()\fP\&.
+.PP
+\fBReturns\fP
+.RS 4
+string \fBForm\fP HTML code\&. 
+.RE
+.PP
+
+.SS "Form::build_results ()"
+Creating result HTML code\&.
+.PP
+Use after \fBload_results()\fP\&.
+.PP
+\fBReturns\fP
+.RS 4
+string HTML code\&. 
+.RE
+.PP
+
+.SS "Form::get_creator ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+null 
+.RE
+.PP
+
+.SS "Form::load ( $form_id)"
+Loading form data and questions from database\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$form_id\fP \fBForm\fP id\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+string Result code 
+.RE
+.PP
+
+.SS "Form::load_results ()"
+Loading users answers from database\&.
+.PP
+Use after \fBload()\fP 
+.SS "Form::parse_answers ()"
+Parsing http post data and generating structure of form\&.
+.PP
+Use after \fBload()\fP\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool Result of parsing\&. 
+.RE
+.PP
+
+.SS "Form::parse_create ()"
+Parsing http post data and generating structure of form\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool Result of parsing\&. 
+.RE
+.PP
+
+.SS "Form::send_answers ( $password)"
+Creating solution into database\&.
+.PP
+Use after \fBparse_answers()\fP\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$password\fP User password for confirm process\&. 
+.RE
+.PP
+
+.SS "Form::send_create ()"
+Creating form in database\&.
+.PP
+Use after \fBparse_create()\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

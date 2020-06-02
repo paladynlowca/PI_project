@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="097c8937-6ebf-4147-9307-18de52f9c714" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pi_users: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="fe52eefd-d879-40dc-a80b-c725f35294f3" />
+    </checked>
+    <expanded>
+      <node key="fe52eefd-d879-40dc-a80b-c725f35294f3" />
+    </expanded>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1ZnvHdFwFDwzDBL70CFRWZYqA5r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Dysk Google\Studia\PHPStorm\PI\pr1\project" />
+      <recent name="C:\Users\User\Dysk Google\Studia\PHPStorm\PI\pr1\public_html\project" />
+      <recent name="C:\Users\User\Dysk Google\Studia\PHPStorm\PI\pr1\public_html\scripts" />
+      <recent name="C:\Users\User\Dysk Google\Studia\PHPStorm\PI\pr1\public_html\styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.test.php (1)">
+    <configuration name="confirm_form.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public_html/project/confirm_form.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="form.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/project/form.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="resolve_result.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public_html/project/resolve_result.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/project/test.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public_html/project/test.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.test.php (1)" />
+        <item itemvalue="PHP Script.resolve_result.php" />
+        <item itemvalue="PHP Script.test.php" />
+        <item itemvalue="PHP Script.confirm_form.php" />
+        <item itemvalue="PHP Script.form.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="project@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="project@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7372e1a2" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="097c8937-6ebf-4147-9307-18de52f9c714" name="Default Changelist" comment="" />
+      <created>1585487589055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585487589055</updated>
+      <workItem from="1585487597861" duration="8549000" />
+      <workItem from="1585576438860" duration="7788000" />
+      <workItem from="1585651381907" duration="22207000" />
+      <workItem from="1585896918789" duration="29000" />
+      <workItem from="1586280947109" duration="4398000" />
+      <workItem from="1586329045504" duration="15685000" />
+      <workItem from="1586433922208" duration="1638000" />
+      <workItem from="1586857140201" duration="3321000" />
+      <workItem from="1587385257047" duration="1601000" />
+      <workItem from="1587494633630" duration="21369000" />
+      <workItem from="1587992241066" duration="24125000" />
+      <workItem from="1588700625071" duration="25499000" />
+      <workItem from="1589106471399" duration="75490000" />
+      <workItem from="1589532101838" duration="8336000" />
+      <workItem from="1589791874883" duration="7316000" />
+      <workItem from="1589891893907" duration="11664000" />
+      <workItem from="1589964087656" duration="5583000" />
+      <workItem from="1590563894307" duration="2964000" />
+      <workItem from="1590587227544" duration="5000" />
+      <workItem from="1590954471985" duration="40284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="380" y="84" key="#CLI_Interpreters" timestamp="1585489480252">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="84" key="#CLI_Interpreters/0.0.1600.860@0.0.1600.860" timestamp="1585489480252" />
+    <state x="392" y="87" key="#Code_Folding" timestamp="1591015205711">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#Code_Folding/0.0.1600.860@0.0.1600.860" timestamp="1591015205711" />
+    <state x="392" y="87" width="816" height="733" key="#Intentions" timestamp="1585494086676">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" width="816" height="733" key="#Intentions/0.0.1600.860@0.0.1600.860" timestamp="1585494086676" />
+    <state x="392" y="87" key="#Notifications" timestamp="1585496272481">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1585496272481" />
+    <state x="437" y="15" key="#PHP" timestamp="1585489545646">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="437" y="15" key="#PHP/0.0.1600.860@0.0.1600.860" timestamp="1585489545646" />
+    <state x="392" y="87" key="#SQL_Dialects" timestamp="1585679514990">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#SQL_Dialects/0.0.1600.860@0.0.1600.860" timestamp="1585679514990" />
+    <state x="201" y="80" key="#SQL_Resolution_Scopes" timestamp="1586330338838">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="201" y="80" key="#SQL_Resolution_Scopes/0.0.1600.860@0.0.1600.860" timestamp="1586330338838" />
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586330201965">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1586330201965" />
+    <state x="530" y="209" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1586338638005">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="209" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1600.860@0.0.1600.860" timestamp="1586338638005" />
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1591018473125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1591018473125" />
+    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590995310392">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1590995310392" />
+    <state x="568" y="259" key="#com.intellij.tools.ToolEditorDialog" timestamp="1590964371704">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="568" y="259" key="#com.intellij.tools.ToolEditorDialog/0.0.1600.860@0.0.1600.860" timestamp="1590964371704" />
+    <state x="531" y="117" key="#index.php" timestamp="1585487794625">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="531" y="117" key="#index.php/0.0.1600.860@0.0.1600.860" timestamp="1585487794625" />
+    <state x="598" y="131" key="ExecutionTargetDialog" timestamp="1585495123453">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="598" y="131" key="ExecutionTargetDialog/0.0.1600.860@0.0.1600.860" timestamp="1585495123453" />
+    <state x="817" y="157" key="FileChooserDialogImpl" timestamp="1587498079235">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="817" y="157" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1587498079235" />
+    <state width="778" height="199" key="GridCell.Tab.0.bottom" timestamp="1589994153305">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589994153305" />
+    <state width="778" height="199" key="GridCell.Tab.0.center" timestamp="1589994153304">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="199" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589994153304" />
+    <state width="778" height="199" key="GridCell.Tab.0.left" timestamp="1589994153304">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="199" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589994153304" />
+    <state width="778" height="199" key="GridCell.Tab.0.right" timestamp="1589994153305">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="199" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589994153305" />
+    <state x="544" y="243" key="NewPhpClassDialog" timestamp="1589359311523">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="544" y="243" key="NewPhpClassDialog/0.0.1600.860@0.0.1600.860" timestamp="1589359311523" />
+    <state x="635" y="352" key="NewPhpFileDialog" timestamp="1590998096524">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="635" y="352" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1590998096524" />
+    <state x="301" y="61" key="SettingsEditor" timestamp="1590964377579">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590964377579" />
+    <state width="232" height="441" key="SqlResolveConfigurable" timestamp="1586330338641">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="232" height="441" key="SqlResolveConfigurable/0.0.1600.860@0.0.1600.860" timestamp="1586330338641" />
+    <state x="435" y="141" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586330626382">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="435" y="141" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1586330626382" />
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1590954506325">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590954506325" />
+    <state x="432" y="0" width="736" height="860" key="find.popup" timestamp="1585742202689">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="432" y="0" width="736" height="860" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1585742202689" />
+    <state x="541" y="71" key="refactoring.ChangeSignatureDialog" timestamp="1589323840053">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="541" y="71" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1589323840053" />
+    <state x="456" y="190" key="run.anything.popup" timestamp="1585489044305">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585489044305" />
+  </component>
+</project>

@@ -1,0 +1,76 @@
+.TH "Header" 3 "Tue Jun 2 2020" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Header
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBinsert_left_menu\fP ($rel_path, $session)"
+.br
+.ti -1c
+.RI "\fBinsert_user_bar\fP ($session)"
+.br
+.ti -1c
+.RI "\fBinsert_header\fP ($rel_path)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class \fBHeader\fP
+.PP
+\fBSee also\fP
+.RS 4
+\fBFooter\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Header::insert_header ( $rel_path)"
+Inserting overall header HTML code into page\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$rel_path\fP Related path to 'project' folder\&. 
+.RE
+.PP
+
+.SS "Header::insert_left_menu ( $rel_path,  $session)"
+Creating main menu left bar HTML code (options of surveys)\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$rel_path\fP Related path to 'project' folder\&. 
+.br
+\fI$session\fP \fBSession\fP class\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+string Html code\&. 
+.RE
+.PP
+
+.SS "Header::insert_user_bar ( $session)"
+Creating main menu right bar HTML code (options of user and logging)\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$session\fP \fBSession\fP class\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+string Html code\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,154 @@
+.TH "Question" 3 "Tue Jun 2 2020" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Question
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBload\fP ($question_id)"
+.br
+.ti -1c
+.RI "\fBbuild_html\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_answer\fP ($answer)"
+.br
+.ti -1c
+.RI "\fBsend_answer\fP ($solution, $password)"
+.br
+.ti -1c
+.RI "\fBcheck_answer\fP ()"
+.br
+.ti -1c
+.RI "\fBload_results\fP ()"
+.br
+.ti -1c
+.RI "\fBbuilt_results\fP ()"
+.br
+.ti -1c
+.RI "\fBparse_create\fP ($datalist)"
+.br
+.ti -1c
+.RI "\fBsend_create\fP ($id)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class handling with questions and solutions for them\&. For use only as a part of \fBForm\fP\&.
+.PP
+There is four mode of use:
+.IP "1." 4
+Prepare form question HTML code, use: \fBload()\fP, \fBbuild_html()\fP\&.
+.IP "2." 4
+Add answer into database, use: \fBload()\fP, \fBparse_answer()\fP, optionally \fBcheck_answer()\fP, \fBsend_answer()\fP\&.
+.IP "3." 4
+Display all question answers, use: \fBload()\fP, \fBload_results()\fP, build_results()\&.
+.IP "4." 4
+Create new question into database, use: \fBparse_create()\fP, \fBsend_create()\fP\&.
+.PP
+.PP
+\fBSee also\fP
+.RS 4
+\fBForm\fP 
+.PP
+\fBQuestionHandler\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Question::build_html ()"
+Creating question HTML code\&.
+.PP
+\fBReturns\fP
+.RS 4
+string HTML code\&. 
+.RE
+.PP
+
+.SS "Question::built_results ()"
+Creating question result HTML code\&.
+.PP
+\fBReturns\fP
+.RS 4
+string HTML code\&. 
+.RE
+.PP
+
+.SS "Question::check_answer ()"
+Checking if answer for question is required\&.
+.PP
+\fBReturns\fP
+.RS 4
+bool Require status\&. 
+.RE
+.PP
+
+.SS "Question::load ( $question_id)"
+Loading questions data from database\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$question_id\fP \fBForm\fP id\&. 
+.RE
+.PP
+
+.SS "Question::load_results ()"
+Loading all question answers from database\&. 
+.SS "Question::parse_answer ( $answer)"
+Validating user answer\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$answer\fP User answer\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+bool Result of validate\&. 
+.RE
+.PP
+
+.SS "Question::parse_create ( $datalist)"
+Validating question from form creation process and building object structure\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$datalist\fP Array of question parameters\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+bool Validating status\&. 
+.RE
+.PP
+
+.SS "Question::send_answer ( $solution,  $password)"
+Sending user answer into database\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fI$solution\fP Solution id\&. 
+.br
+\fI$password\fP User password for confirm process\&. 
+.RE
+.PP
+
+.SS "Question::send_create ( $id)"
+Inserting question into database\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI$id\fP 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.
