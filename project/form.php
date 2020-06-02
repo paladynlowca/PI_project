@@ -136,7 +136,7 @@ class Form
                 {
                     array_push($questions, $data);
                     $questions_data[$data] = array();
-                    $questions_data[$data][substr($key, 5)] = $value;
+                    $question[$data] = $data;
                 }
                 $questions_data[$data][substr($key, 5)] = $value;
             }

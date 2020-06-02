@@ -269,7 +269,7 @@ class Question
 
         if ($answers == '')
         {
-            if($datalist['type'] = 'single' or $datalist['type'] = 'multi')
+            if($datalist['type'] == 'single' or $datalist['type'] == 'multi')
                 return false;
             $this->q_answers_raw = 'NULL';
         }

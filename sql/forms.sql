@@ -255,6 +255,13 @@ END $$
 delimiter ;
 
 delimiter $$
+CREATE PROCEDURE GetResultUsersList(form_ int)
+BEGIN
+    SELECT pi_users.login from pi_users JOIN pi_solutions ON pi_users.id=pi_solutions.user where pi_solutions.form = form_;
+END $$
+delimiter ;
+
+delimiter $$
 CREATE PROCEDURE CheckSolutionExist(user_ int, form_ int)
 BEGIN
     select id, form from pi_solutions where user_ = pi_solutions.user and form_ = pi_solutions.form;

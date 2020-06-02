@@ -19,6 +19,13 @@ if (array_key_exists('form_id', $_GET) and $session->check_grants(50))
     {
         $form->load_results();
         echo $form->build_results();
+        echo '<br><br><h3>Odpowiedzi udzielili:</h3><br>';
+        $users = new SqlCall('GetResultUsersList', $_GET['form_id']);
+        $users->do_quarry ();
+        while($row = $users->next_row())
+        {
+            echo '<div>'.$row['login'].'</div>';
+        }
     }
     else
     {
