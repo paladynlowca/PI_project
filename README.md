@@ -25,9 +25,9 @@ Also application can check if someone changed answers; all solutions have hashed
 
 ## Installation
 
-1. Copy file into server. Be sure, that files from /public_html/project is available from outside. If you change data structure, change also in /public_html/project/statments.php variable $root into your project root folder.
+1. Copy file into server. Be sure, that files from /public_html/project/ is available from outside. If you change data structure, change also in /public_html/project/statments.php variable $root into your project root folder.
 
-2. Run sql script located in /sql onto application database and change data in /project/sql_data.php into correct for your server.
+2. Run sql script located in /sql/ onto application database and change data in /project/sql_data.php into correct for your server.
 
 And it's all, everything should work properly.
 
